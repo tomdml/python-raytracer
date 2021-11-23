@@ -7,6 +7,8 @@ This project, built from the ground up using TDD, was a great way to learn more 
 
 I used a book called [The Ray Tracer Challenge](https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/) as a guide - The book describes the tests you need to write, and then it's up to the reader to build an appropriate implementation to ensure the tests pass. By providing the material in this manner, the book is fully language-agnostic (There's not a single line of real code provided!)
 
+Being written in pure Python, the raytracer is inevitably slow, due to the way that Python handles arithmetic operations. This could be improved significantly by swapping out CPython for a JIT implementation, such as PyPy - Although I haven't been able to test this due to Apple Sillicon compatibility issues.
+
 ## Screenshots
 
 A basic shaded sphere with coloured surface, displaying ambient, specular and diffuse lighting from a point light.
